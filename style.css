@@ -192,3 +192,20 @@ transition: 0.2 ease;
   text-align: center;
   font-weight: bolder;
 }
+h1{
+  color:white;
+}
+#domanda1{
+  text-align: center;
+}
+#risposta1{
+  color:white;
+  text-align: center;
+}
+#linkmods{
+  color:white;
+}
+#titolodomande{
+  margin-left:2%;
+  font-size: 50px
+}
