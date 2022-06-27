@@ -73,6 +73,29 @@ background-color:black;
   border: 2px solid #7289da;
   color: #fff;
 }
+.blue-button2 {
+  display: inline-block;
+  font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 45px;
+  width: 250px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.blue-button2 {
+  background-color: #7289da;
+  border: 2px solid #7289da;
+  color: #fff;
+}
+.blue-button button:hover{
+  margin-top: 10%;
+text-align: center;
+transition: 0.2 ease;
+background-color: rgb(102, 101, 126)
+}
+
 #h1-principale{
   text-align: center;
   color: white;
@@ -109,6 +132,7 @@ background-color:black;
     color: white;
     font-size: 30px;
   }
+
   li a{
    text-decoration: none;
    color: white;
@@ -148,4 +172,23 @@ a.active{
 .comeentrare h1{
   text-align: center;
   font-size: 45px
+}
+.btn1{
+  margin-top: 10%;
+text-align: center;
+transition: 0.2 ease;
+}
+#logs{
+  color: white;
+  text-align: center;
+}
+#data{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#postscriptum{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
 }
