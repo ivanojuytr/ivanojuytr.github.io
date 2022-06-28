@@ -129,7 +129,7 @@ background-color: rgb(102, 101, 126)
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:
     font-size: 30px;
   }
 
@@ -191,6 +191,7 @@ transition: 0.2 ease;
   color: white;
   text-align: center;
   font-weight: bolder;
+  padding-bottom: 10%
 }
 h1{
   color:white;
@@ -201,6 +202,7 @@ h1{
 #risposta1{
   color:white;
   text-align: center;
+  padding-bottom: 10%
 }
 #linkmods{
   color:white;
@@ -208,4 +210,50 @@ h1{
 #titolodomande{
   margin-left:2%;
   font-size: 50px
+}
+#navbar{
+  text-align: center;
+}
+li a {
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top:1%;
+  margin-bottom: 1%
+}
+ li a {
+   border-radius: 4px
+
+ }
+
+#descprod1{
+  color: white;
+font-size: 15px;
+margin-left: 12%
+
+}
+#prodottiall{
+display: flex;
+margin-left: 10%;
+}
+.prodotto{
+  display: flex;
+}
+.descrizione-prodotto{
+display: flex;
+margin-top: 10%;
+margin-left: 30%;
+position: absolute;
+font-size: 25px;
+}
+.nome-prezzo{
+display: flex
+}
+#prodotti{
+  border: 0;
+  border-color: none;
+}
+#prodotti:hover{
+  border: 0;
+  border-color: none;
+  background-color: black;
 }
