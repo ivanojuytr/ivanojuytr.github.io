@@ -121,6 +121,14 @@ background-color: rgb(102, 101, 126)
 
 
 }
+
+.active{
+  background-color: #dbe2ed;
+  color: black;
+
+}
+
+
 @media screen and (max-width:394px; max-height: 874px) {
   .hero-text {
     filter:  none;
@@ -156,6 +164,7 @@ li a:hover{
 a.active{
   background-color: #dbe2ed;
   color: black;
+
 }
 .comeentrare a{
   color: white;
@@ -207,6 +216,14 @@ h1{
 #linkmods{
   color:white;
 }
+
+.logs{
+  text-align: center;
+}
+
+
+
+
 #titolodomande{
   margin-left:2%;
   font-size: 50px
