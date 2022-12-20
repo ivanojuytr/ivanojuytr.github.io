@@ -1,29 +1,23 @@
-@media (min-width:1px){ 
+@media (max-width: 440px) { 
   
+  body {font-size:35px;} 
+  img{
+    width: 400px;
+    align-items: center;
+    margin-left: 2%;
+  } 
   #darkmode{
-    margin-left:90%
+    margin-left:70%
   }
 
 }
-img{
-  border-radius: 5px;
-}
-body{
-  font-weight: bolder;
-}
 
-p{
-
- margin-bottom: 3%; 
-
-}
-
-@media  screen and (max-width: 450px) and (min-width: 300px)  {
-  img{
+@media (min-width:440, max-width:560px) { 
+  #pvp-img{
     border-radius: 5px;
-    width: 350px;
+    width: auto;
     display: relative;
-    margin-left: 0%;
+    align-items: center;
   }
   .pvp{
     align-items: center;
@@ -34,33 +28,30 @@ p{
     font-weight: 700;
     font-size: 35px;
   }
-  .economia{
-    
-    align-items: center;
-    display: relative;
+  #banca-img{
+    border-radius: 5px;
+    width: 450px;
+    display: flex;
   }
-  #economia-testo{ 
+  .economia{
+    display: flex;
+    margin: 122%;
+    margin-right: 15px
+     
+  }
+  #economia-testo{
     font-weight: 700;
-    font-size: 35px;
+    font-size: 25px;
   }
   body {font-size:1.2rem;} 
 
 }
-
-@media  screen and (max-width: 450px) and (min-width: 400px)  {
-  img{
+@media (min-width:550, max-width:2000px) {
+  #pvp-img{
     border-radius: 5px;
-    width: 390px;
-    display: relative;
-    margin-left: 0%;
-  }
-}
-@media  screen and (max-width: 5500px) and (min-width: 1000px)  {
-  img{
-    border-radius: 5px;
-    width: 370px;
+    width: 450px;
     display: flex;
-    margin-left:2%;
+    margin-left: 2%;
   }
   .pvp{
     display: flex;
@@ -70,9 +61,14 @@ p{
     font-weight: 700;
     font-size: 25px;
   }
+  #banca-img{
+    border-radius: 5px;
+    width: 450px;
+    display: flex;
+  }
   .economia{
     display: flex;
-    margin-top: 2%;
+    margin: 2%;
     margin-right: 15px
      
   }
@@ -80,6 +76,8 @@ p{
     font-weight: 700;
     font-size: 25px;
   }
+  body {font-size:1.5rem;}
+
 }
 
 
@@ -220,13 +218,4 @@ li{
 	--ease-step-3: steps(4);
 	--ease-step-4: steps(7);
 	--ease-step-5: steps(10);
-}
-@media  screen and (max-width: 700px) and (min-width: 500px)  {
-
-img{
-
-  width: 600px;
-
-}
-
 }
